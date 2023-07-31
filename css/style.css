@@ -19,7 +19,7 @@ body{
 main {
     display: inline-block;
     position: relative;
-    margin-top: 2%;
+    margin-top: 30px;
     padding: 15px;
 }
 .pokedex{
@@ -63,10 +63,10 @@ main {
 }
 .buttons{
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 50%;
     width: 65%;
-    transform: translate(-57%, 0%);
+    transform: translate(-57%, -145%);
     display: flex;
     gap: 20px;
 }
@@ -80,11 +80,23 @@ main {
     box-shadow: -2px 3px 0 #222, -4px 5px 0 #000;
 }
 .button svg{
-    width: clamp(5px, 5vw, 36px);
+    width: clamp(8px, 5vw, 26px);
     fill: white;
+}
+.button_random{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    transform: translate(40%, 150%);
+    font-size: clamp(8px, 5vw, 20px);
+    color: white;
+
 }
 .button:active{
     transform: translate(-20px 5px);
     box-shadow: inset -4px 5px 0 #222;
-    height: 100%;
+    height: 70%;
+}
+.button_random:active {
+    font-size: clamp(7px, 4.7vw, 19px);
 }
