@@ -8,9 +8,8 @@
 }
 body{
     text-align: center;
-    background-image: url(../assets/bg.jpg);
-    background-position-x: center;
-    background-repeat: no-repeat;
+    background: url(../assets/bg.jpg) no-repeat top center/cover;
+    height: 100vh;
 }
 
 main {
