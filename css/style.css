@@ -1,16 +1,14 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*font-family: 'Barlow', sans-serif;*/
     font-family: 'Chakra Petch', sans-serif;
 }
 body{
     text-align: center;
-    background-image: url(/assets/bg.png);
+    background-image: url(/assets/bg.jpg);
     background-position-x: center;
     background-repeat: no-repeat;
 }
