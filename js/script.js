@@ -85,5 +85,4 @@ function shinyTest() {
     return Math.floor(Math.random() * 10) + 1;
   }
 
-
 renderPokemon(searchPokemon);
